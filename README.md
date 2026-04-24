@@ -1,6 +1,6 @@
 # MyTranslator
 
-[中文](./README_ZH)
+[中文](./README_ZH.md)
 
 An API backend written in Rust that exposes an OpenAI-compatible LLM as a Google Translate-compatible service, built with Salvo.
 
