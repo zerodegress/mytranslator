@@ -1,0 +1,11 @@
+[server]
+host = "127.0.0.1"
+port = 5800
+
+[llm]
+base_url = "https://api.openai.com/v1"
+model = "gpt-4o-mini"
+system_prompt = "You are a translation engine. Translate the user's text faithfully. Return only the translated text without commentary."
+temperature = 0.0
+timeout_secs = 60
+token_env = "TOKEN"
